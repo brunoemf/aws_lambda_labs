@@ -1,0 +1,23 @@
+{
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.amazonaws.com/snapshots/740893870884/hello-ae0dbb55-d97c-4419-82f9-5bf93206a705?X-Amz-Security-Token=FQoDYXdzEMX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDLfZ68f%2FpzL8bwjOlSK3Ax0SQhYnRe0X%2FwHMOEYTvTzwHHA%2B0E8xIoo7zcRFKVlBKLQu7lcbx009Pkrc5owUKbtJM0krOYToHlvpcNHiwUaKeUmb5liml10q7r747yM3%2BggDAQ%2BnCQ9oT4jfRiKgKj5gTCUuOWXGWbY6ZjmN6xkYntJJ%2Ffn0uOOCDucRx%2F29bclHlnyEX1d6GQhFkAFyO%2Fsai79y2jeQdRXD2If0p%2FsuRGgYh7Jif0WflDT6JVklrraBznZDRKzuyIXskyBEg6qoQtPE6qcqAujVebQrL2k4zhP6Vxq9qAynUA7%2FNGoQw1e0ksl%2Ff%2FnrbCuOfmilv5ZLz%2B%2BRPRDtLwKr8BfxobpTfp%2BGV2sQv1GmBSU7qx%2Fa3vHVGu336MlJmZe4w9f9ghqiTBHS4EMtZ3OYRIltrScc6ZsSWmpenlEK3%2FNxcG8efSfO8sDsxfJDE1xkRT0nm42PJGw2imY4D5jeTTlFi65jRCRU0d9P%2FOKRnYjGuDWlqCUObZmx3thAi9KLEJTRLfrBHVRHI2UJI7QXQQ0H7%2BnvFjfdNP7Bn35NeFsuKoBDYVHC%2B6Rijw1MslKn4Qjdx0IeI96eJpEozdOhzQU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20170831T205157Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIAJ5BA4VPH3CWQ3CPQ%2F20170831%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6bef54cc4688b0b8c36a78b26604dddafd8d90d04b82a8d0ef4adcd63ebc6130"
+    },
+    "Configuration": {
+        "MemorySize": 128,
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "FunctionName": "hello",
+        "CodeSha256": "M+DhnVn6Z5c+b4NxyiP+P7OL09BXlRYmKHOhfOkzE9k=",
+        "Runtime": "python2.7",
+        "Version": "$LATEST",
+        "FunctionArn": "arn:aws:lambda:us-east-1:740893870884:function:hello",
+        "Role": "arn:aws:iam::740893870884:role/lambda_execution_role",
+        "Timeout": 3,
+        "LastModified": "2017-08-31T20:43:10.226+0000",
+        "Handler": "my_handler",
+        "Description": "",
+        "CodeSize": 228
+    }
+}
